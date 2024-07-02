@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Cinzel+Decorative:wght@400;700;900&family=Play:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1>Guess The Word!</h1>
+
+    <div class="guess-word">
+      <h3 class="mystery">?</h3>
+      <p>Guesses Left <span class="guess-left">5</span></p>
+    </div>
+
+    <div class="scoreboard">
+      <div class="scoreboard-1">
+        <span>Player 1</span>
+        <p class="score-1">Score: <span class="label-score-1">0</span></p>
+      </div>
+      <!--score-1-->
+
+      <div class="scoreboard-2">
+        <span>Player ii</span>
+        <p class="score-2">Score: <span class="label-score-2">0</span></p>
+      </div>
+      <!--score-2-->
+    </div>
+    <!--scoreboard-->
+    <div class="panel">
+      <p class="set">Set the Word!</p>
+      <input type="text" class="word" />
+    </div>
+    <!--panel-->
+    <div class="btn">
+      <button class="enter">Enter</button>
+      <button class="guess">Guess</button>
+      <button class="reset">Play Again!</button>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
